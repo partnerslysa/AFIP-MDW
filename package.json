@@ -1,0 +1,15 @@
+{
+  "name": "afip-mdw",
+  "version": "1.0.0",
+  "description": "AFIP Middleware Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Partnersly SA",
+  "license": "ISC",
+  "dependencies": {
+    "afip-apis": "^0.5.5",
+    "express": "^4.19.2"
+  }
+}
