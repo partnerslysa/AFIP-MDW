@@ -27,7 +27,7 @@ app.post('/getSignature', async (req, res) => {
             res.status(200).json({
                 error: false,
                 details: ``,
-                info: JSON.stringify(r)
+                info: r
             });
 
             return;
