@@ -13,7 +13,7 @@ app.post('/getSignature', async (req, res) => {
     try 
     {
         const DEFAULT_URLWSAAWSDL = req[`body`][`urlwsaa`];//"https://wsaahomo.afip.gov.ar/ws/services/LoginCms?WSDL"
-        const DEFAULT_SERVICIO = "wsfe";
+        const DEFAULT_SERVICIO = req[`body`][`service`];//"wsfe";
         const DEFAULT_CERTIFICATE = req[`body`][`crt_file_route`];//"./files/ptlytest.crt";
         const DEFAULT_CERTIFICATE_KEY = req[`body`][`pk_file_route`];//"./files/PKPTLYTEST.key";
 
